@@ -23,7 +23,7 @@ export class MapPage {
 
   }
   
-  ionViewLoaded() {
+  ionViewDidEnter() {
     console.log("I'm alive!");
     this.map.triggerResize();
   }
